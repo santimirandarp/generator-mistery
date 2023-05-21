@@ -12,5 +12,5 @@ jobs:
     with:
       npm: true
     secrets:
-      github-token: ${{ secrets.GITHUB_TOKEN }}
+      github-token: ${{ secrets.GENERATOR }}
       npm-token: ${{ secrets.GENERATOR }}
