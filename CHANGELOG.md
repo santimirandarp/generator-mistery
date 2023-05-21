@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/santimirandarp/generator-mistery/compare/v0.0.3...v0.0.4) (2023-05-21)
+
+
+### Miscellaneous Chores
+
+* release 0.0.4 ([d688015](https://github.com/santimirandarp/generator-mistery/commit/d6880159735126b6f4fd93b9c791e99fecca25af))
+
 ## [0.0.3](https://github.com/santimirandarp/generator-simple/compare/v0.0.2...v0.0.3) (2023-05-21)
 
 
