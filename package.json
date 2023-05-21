@@ -1,6 +1,6 @@
 {
-  "name": "generator-simple",
-  "version": "0.0.1",
+  "name": "generator-mistery",
+  "version": "0.0.0",
   "description": "Simple scaffolding for Typescript project.",
   "scripts": {
     "eslint": "eslint app --cache",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santimirandarp/generator-simple.git"
+    "url": "git+https://github.com/santimirandarp/generator-mistery.git"
   },
   "keywords": [
     "yeoman-generator"
@@ -22,9 +22,9 @@
   "author": "Santi Miranda",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/santimirandarp/generator-simple/issues"
+    "url": "https://github.com/santimirandarp/generator-mistery/issues"
   },
-  "homepage": "https://github.com/santimirandarp/generator-simple#readme",
+  "homepage": "https://github.com/santimirandarp/generator-mistery#readme",
   "dependencies": {
     "camelcase": "^7.0.1",
     "yeoman-generator": "^5.9.0"
