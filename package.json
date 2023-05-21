@@ -1,6 +1,6 @@
 {
   "name": "generator-simple",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple scaffolding for Typescript project.",
   "scripts": {
     "eslint": "eslint app --cache",
