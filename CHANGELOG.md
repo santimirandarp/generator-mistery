@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3](https://github.com/santimirandarp/generator-simple/compare/v0.0.2...v0.0.3) (2023-05-21)
+
+
+### Bug Fixes
+
+* add .github folder ([d4ed36a](https://github.com/santimirandarp/generator-simple/commit/d4ed36a524ebe3ade1eb017800a1782b1cb1a144))
+* add vite config file ([a9a0ade](https://github.com/santimirandarp/generator-simple/commit/a9a0adedea2ae1f390fab033e9cf4f7bf917a0e3))
+
 ## [0.0.2](https://github.com/santimirandarp/generator-simple/compare/v0.0.1...v0.0.2) (2023-05-21)
 
 
