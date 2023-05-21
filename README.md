@@ -17,7 +17,7 @@ yo mistery
 [npm-image]: https://img.shields.io/npm/v/generator-mistery.svg
 [npm-url]: https://www.npmjs.com/package/generator-mistery
 [ci-image]: https://github.com/santimirandarp/generator-mistery/workflows/Node.js%20CI/badge.svg?branch=master
-[ci-url]: https://github.com/santimirandarp/yolo2coco/actions?query=workflow%3A%22Node.js+CI%22
+[ci-url]: https://github.com/santimirandarp/generator-mistery/actions?query=workflow%3A%22Node.js+CI%22
 [download-image]: https://img.shields.io/npm/dm/generator-mistery.svg
 [download-url]: https://www.npmjs.com/package/generator-mistery
 ~                                                              
