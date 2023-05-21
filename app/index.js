@@ -25,7 +25,7 @@ export default class extends Generator {
         type: 'input',
         name: 'org',
         message: 'GitHub organization',
-        default: username,
+        default: "cheminfo",
       },
       {
         type: 'input',
