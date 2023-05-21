@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santimirandarp/generator-test.git"
+    "url": "git+https://github.com/santimirandarp/generator-simple.git"
   },
   "keywords": [
     "yeoman-generator"
@@ -26,9 +26,9 @@
   "author": "Santi Miranda",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/santimirandarp/generator-test/issues"
+    "url": "https://github.com/santimirandarp/generator-simple/issues"
   },
-  "homepage": "https://github.com/santimirandarp/generator-test#readme",
+  "homepage": "https://github.com/santimirandarp/generator-simple#readme",
   "dependencies": {
     "camelcase": "^7.0.1",
     "yeoman-generator": "^5.9.0"
