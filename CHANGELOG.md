@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/santimirandarp/generator-mistery/compare/v0.0.4...v0.1.0) (2023-05-21)
+
+
+### Features
+
+* ignore package-lock as well ([8cfb3b1](https://github.com/santimirandarp/generator-mistery/commit/8cfb3b115b5e99c91d0aeefef0327680536608c7))
+
 ## [0.0.4](https://github.com/santimirandarp/generator-mistery/compare/v0.0.3...v0.0.4) (2023-05-21)
 
 
