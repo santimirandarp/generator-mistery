@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "Simple scaffolding for Typescript project.",
   "scripts": {
-    "clean": "rimraf lib",
     "eslint": "eslint app --cache",
     "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check app",
