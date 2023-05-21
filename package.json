@@ -7,7 +7,7 @@
     "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check app",
     "prettier-write": "prettier --write app",
-    "test": "npm run eslint && npm run prettier"
+    "test-only": "npm run eslint && npm run prettier"
   },
   "files": [
     "app"
