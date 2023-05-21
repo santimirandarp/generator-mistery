@@ -1,0 +1,37 @@
+{
+  "name": "generator-simple",
+  "version": "0.0.0",
+  "description": "Simple scaffolding for Typescript project.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "eslint": "eslint src --cache",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prepack": "npm run tsc",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
+    "test": "npm run test-only && npm run eslint && npm run prettier && npm run check-types",
+    "test-only": "vitest run --coverage"
+  },
+  "files": [
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santimirandarp/generator-test.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Santi Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santimirandarp/generator-test/issues"
+  },
+  "homepage": "https://github.com/santimirandarp/generator-test#readme",
+  "dependencies": {
+    "camelcase": "^7.0.1",
+    "yeoman-generator": "^5.9.0"
+  },
+  "type": "module"
+}
