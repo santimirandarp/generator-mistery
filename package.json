@@ -2,16 +2,13 @@
   "name": "generator-simple",
   "version": "0.0.0",
   "description": "Simple scaffolding for Typescript project.",
-  "main": "index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "eslint": "eslint src --cache",
+    "eslint": "eslint app --cache",
     "eslint-fix": "npm run eslint -- --fix",
-    "prepack": "npm run tsc",
-    "prettier": "prettier --check src",
-    "prettier-write": "prettier --write src",
-    "test": "npm run test-only && npm run eslint && npm run prettier && npm run check-types",
-    "test-only": "vitest run --coverage"
+    "prettier": "prettier --check app",
+    "prettier-write": "prettier --write app",
+    "test": "npm run eslint && npm run prettier"
   },
   "files": [
     "app"
@@ -33,5 +30,9 @@
     "camelcase": "^7.0.1",
     "yeoman-generator": "^5.9.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8"
+  }
 }
