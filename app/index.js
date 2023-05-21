@@ -9,7 +9,6 @@ let username = ' ';
 try {
   username = cp.execSync('git config user.name').toString();
 } catch (e) {
-  /* istanbul ignore next */
   console.error('Missing git configuration');
 }
 
@@ -122,6 +121,13 @@ export default class extends Generator {
       this.templatePath('package'),
       this.destinationPath('package.json'),
       includes,
+    );
+    this.fs.copy(
+      [this.templatePath('.github/**')],
+      this.destinationPath('.github/'),
+      {
+        globOptions: { globstar: true },
+      },
     );
   }
 
