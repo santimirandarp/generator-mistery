@@ -11,6 +11,32 @@ npm i yo generator-mistery -g
 yo mistery
 ```
 
+Scaffold looks like this:
+
+```bash
+my@nb:~/hey$ tree -L 3 -I node_modules -a
+.
+├── .config
+│   ├── tsconfig.cjs.json
+│   ├── tsconfig.esm.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
+├── .github
+│   └── workflows
+│       ├── nodejs-ts.yml
+│       ├── nodejs.yml
+│       ├── release.yml
+│       └── typedoc.yml
+├── .gitignore
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README.md
+└── src
+    ├── index.ts
+    └── __tests__
+        └── index.test.ts
+```
 
 
 
