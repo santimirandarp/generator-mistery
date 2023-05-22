@@ -1,54 +1,54 @@
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
-import camelCase from 'camelcase';
-import Generator from 'yeoman-generator';
+import camelCase from "camelcase";
+import Generator from "yeoman-generator";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const deps = [
-  '@types/jest',
-  'eslint',
-  'eslint-config-cheminfo-typescript',
-  'vitest',
-  'prettier',
-  'rimraf',
-  'typescript',
+  "@types/jest",
+  "eslint",
+  "eslint-config-cheminfo-typescript",
+  "vitest",
+  "prettier",
+  "rimraf",
+  "typescript",
 ];
 
-const toCopy = join(__dirname, 'toCopy');
-const templateFiles = ['LICENSE', 'README.md', 'package', '.gitignore'];
+const toCopy = join(__dirname, "toCopy");
+const templateFiles = ["LICENSE", "README.md", "package", ".gitignore"];
 
 export default class extends Generator {
   async prompting() {
     const prompts = [
       {
-        type: 'input',
-        name: 'name',
-        message: 'Your project name',
+        type: "input",
+        name: "name",
+        message: "Your project name",
         default: this.determineAppname(),
       },
       {
-        type: 'input',
-        name: 'org',
-        message: 'GitHub organization',
+        type: "input",
+        name: "org",
+        message: "GitHub organization",
         default: await this.user.github.username(),
       },
       {
-        type: 'input',
-        name: 'userName',
-        message: 'Your name',
+        type: "input",
+        name: "userName",
+        message: "Your name",
         default: this.user.git.name(),
       },
       {
-        type: 'input',
-        name: 'description',
-        message: 'Your package description',
+        type: "input",
+        name: "description",
+        message: "Your package description",
       },
       {
-        type: 'confirm',
-        name: 'node',
-        message: 'Is it a Node.js-only library?',
+        type: "confirm",
+        name: "node",
+        message: "Is it a Node.js-only library?",
         default: false,
       },
     ];
@@ -61,7 +61,7 @@ export default class extends Generator {
     const month = date.getMonth();
     const year = date.getFullYear();
     const camelName = camelCase(this.props.name);
-    const prefix = this.props.org === 'mljs' ? 'ml-' : '';
+    const prefix = this.props.org === "mljs" ? "ml-" : "";
     const includes = {
       npmName: prefix + this.props.name,
       name: this.props.name,
@@ -74,27 +74,20 @@ export default class extends Generator {
       camelName,
     };
 
-    this.copyDestination(join(toCopy, 'index.ts'), 'src/index.ts');
-    this.copyDestination(
-      join(toCopy, 'index.test.ts'),
-      'src/__tests__/index.test.ts',
-    );
-
-    const config = join(toCopy, '.config/**');
-    this.copyDestination(config, '.config/', {
-      globOptions: { globstar: true },
-    });
-
-    this.copyDestination(join(toCopy, '.github/**'), '.github/', {
-      globOptions: { globstar: true },
+    this.copyDestination(join(toCopy, "**"), ".", {
+      globOptions: {
+        globstar: true,
+        deep: 3,
+        dot: true,
+      },
     });
 
     for (const file of templateFiles) {
-      const outFile = file === 'package' ? 'package.json' : file;
+      const outFile = file === "package" ? "package.json" : file;
       this.fs.copyTpl(
         this.templatePath(file),
         this.destinationPath(outFile),
-        includes,
+        includes
       );
     }
     this.addDevDependencies(deps);
