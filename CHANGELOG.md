@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.3](https://github.com/santimirandarp/generator-mistery/compare/v0.1.2...v0.1.3) (2023-05-22)
+
+
+### Bug Fixes
+
+* glob templates ([4e24f7e](https://github.com/santimirandarp/generator-mistery/commit/4e24f7e99e13f4be7bb1a69f7ed9a02425c4d5a1))
+* outfile to root ([03b3d5f](https://github.com/santimirandarp/generator-mistery/commit/03b3d5f3c82b542080f5a4c7846461a82748b9ba))
+* package.json problem with eslint, found workaround ([2a1cd30](https://github.com/santimirandarp/generator-mistery/commit/2a1cd30c19551af6c2c78ac32314ea5afada5121))
+
 ## [0.1.2](https://github.com/santimirandarp/generator-mistery/compare/v0.1.1...v0.1.2) (2023-05-22)
 
 
