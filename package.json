@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Simple scaffolding for Typescript project.",
   "scripts": {
-    "eslint": "eslint app --cache",
+    "eslint": "eslint generators --cache -c .config/.eslintrc.yml --ext js",
     "eslint-fix": "npm run eslint -- --fix",
-    "prettier": "prettier --check app",
-    "prettier-write": "prettier --write app",
+    "prettier": "prettier --check generators --config .config/.prettierrc.json",
+    "prettier-write": "prettier --write generators --config .config/.prettierrc.json",
     "test-only": "npm run eslint && npm run prettier"
   },
   "files": [
-    "app"
+    "generators/app"
   ],
   "repository": {
     "type": "git",
@@ -32,11 +32,11 @@
   "type": "module",
   "devDependencies": {
     "@types/jest": "^29.5.1",
+    "@types/yeoman-generator": "^5.2.11",
     "eslint": "^8.41.0",
     "eslint-config-cheminfo-typescript": "^11.3.1",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.1",
-    "typescript": "^5.0.4",
     "vitest": "^0.31.1"
   }
 }
