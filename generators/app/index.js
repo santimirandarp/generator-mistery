@@ -84,7 +84,7 @@ export default class extends Generator {
 
       this.fs.copyTpl(
         this.templatePath(join(templates, '*')),
-        this.destinationPath(outFile),
+        this.destinationPath("."),
         includes,
         null,
         {
