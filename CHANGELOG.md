@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.1](https://github.com/santimirandarp/generator-mistery/compare/v0.0.2...v0.1.1) (2023-05-22)
+
+
+### Features
+
+* ignore package-lock as well ([8cfb3b1](https://github.com/santimirandarp/generator-mistery/commit/8cfb3b115b5e99c91d0aeefef0327680536608c7))
+
+
+### Bug Fixes
+
+* add .github folder ([d4ed36a](https://github.com/santimirandarp/generator-mistery/commit/d4ed36a524ebe3ade1eb017800a1782b1cb1a144))
+* add vite config file ([a9a0ade](https://github.com/santimirandarp/generator-mistery/commit/a9a0adedea2ae1f390fab033e9cf4f7bf917a0e3))
+
+
+### Miscellaneous Chores
+
+* release 0.0.2 ([776f226](https://github.com/santimirandarp/generator-mistery/commit/776f226451993b32074dc5f43a7347f761b0c6c1))
+* release 0.0.4 ([d688015](https://github.com/santimirandarp/generator-mistery/commit/d6880159735126b6f4fd93b9c791e99fecca25af))
+* release 0.1.1 ([9a1fc0b](https://github.com/santimirandarp/generator-mistery/commit/9a1fc0b3e14e0095f57a47fd562bc60973789941))
+
 ## [0.0.2](https://github.com/santimirandarp/generator-mistery/compare/v0.1.0...v0.0.2) (2023-05-22)
 
 
