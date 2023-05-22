@@ -1,4 +1,4 @@
-# generator-simple
+# generator-mistery
 
 [![NPM version][npm-image]][npm-url]
 [![build status][ci-image]][ci-url]
