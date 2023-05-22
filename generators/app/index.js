@@ -17,7 +17,7 @@ const deps = [
 ];
 
 const toCopy = join(__dirname, 'toCopy');
-const templateFiles = ['LICENSE', 'README.md', 'package', '.gitignore'];
+const templates = join(__dirname, 'templates')
 
 export default class extends Generator {
   async prompting() {
@@ -82,14 +82,17 @@ export default class extends Generator {
       },
     });
 
-    for (const file of templateFiles) {
-      const outFile = file === 'package' ? 'package.json' : file;
       this.fs.copyTpl(
-        this.templatePath(file),
+        this.templatePath(join(templates, '*')),
         this.destinationPath(outFile),
         includes,
+        null,
+        {
+          globOptions:{
+            dot:true
+          }
+        }
       );
-    }
     this.addDevDependencies(deps);
   }
 }
