@@ -34,8 +34,7 @@ my@nb:~/hey$ tree -L 3 -I node_modules -a
 ├── README.md
 └── src
     ├── index.ts
-    └── __tests__
-        └── index.test.ts
+    └── index.test.ts
 ```
 
 
