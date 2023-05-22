@@ -17,7 +17,7 @@ const deps = [
 ];
 
 const toCopy = join(__dirname, 'toCopy');
-const templates = join(__dirname, 'templates')
+const templates = join(__dirname, 'templates');
 
 export default class extends Generator {
   async prompting() {
@@ -82,17 +82,20 @@ export default class extends Generator {
       },
     });
 
-      this.fs.copyTpl(
-        this.templatePath(join(templates, '*')),
-        this.destinationPath("."),
-        includes,
-        null,
-        {
-          globOptions:{
-            dot:true
-          }
-        }
-      );
+    this.fs.copyTpl(
+      this.templatePath(join(templates, '*')),
+      this.destinationPath('.'),
+      includes,
+      null,
+      {
+        globOptions: {
+          dot: true,
+          onlyFiles: true,
+        },
+      },
+    );
+
+    this.fs.copyTpl(join(__dirname, 'package'), 'package.json', includes);
     this.addDevDependencies(deps);
   }
 }
