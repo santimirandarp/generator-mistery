@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/santimirandarp/generator-mistery/compare/v0.1.1...v0.1.2) (2023-05-22)
+
+
+### Bug Fixes
+
+* iteration done simpler ([b3f5716](https://github.com/santimirandarp/generator-mistery/commit/b3f5716c26fa93db45f7e59d3f304d4a13388586))
+
 ## [0.1.1](https://github.com/santimirandarp/generator-mistery/compare/v0.0.2...v0.1.1) (2023-05-22)
 
 
