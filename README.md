@@ -14,9 +14,10 @@ yo mistery
 Scaffold looks like this:
 
 ```bash
-my@nb:~/hey$ tree -L 3 -I node_modules -a
 .
 ├── .config
+│   ├── .eslintrc.json
+│   ├── .prettierrc.json
 │   ├── tsconfig.cjs.json
 │   ├── tsconfig.esm.json
 │   ├── tsconfig.json
@@ -30,11 +31,10 @@ my@nb:~/hey$ tree -L 3 -I node_modules -a
 ├── .gitignore
 ├── LICENSE
 ├── package.json
-├── package-lock.json
 ├── README.md
 └── src
-    ├── index.ts
-    └── index.test.ts
+    ├── index.test.ts
+    └── index.ts
 ```
 
 
