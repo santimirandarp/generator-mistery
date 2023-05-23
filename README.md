@@ -37,6 +37,8 @@ Scaffold looks like this:
     └── index.ts
 ```
 
+-------------------
+
 [MIT LICENSE](https://github.com/santimirandarp/generator-mistery/blob/master/LICENSE)
 
 
