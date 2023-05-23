@@ -1,0 +1,11 @@
+{
+  "extends": "cheminfo-typescript",
+  "rules": {
+    "@typescript-eslint/naming-convention": 0,
+    "camelcase": 0
+  },
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "tsconfigRootDir": ".config"
+  }
+}

@@ -9,5 +9,6 @@
     "strict": true,
     "target": "es2020"
   },
-  "include": ["../src/**/*"]
+  "include": ["../src/**/*"],
+  "exclude": ["./src/**/__tests__"]
 }
