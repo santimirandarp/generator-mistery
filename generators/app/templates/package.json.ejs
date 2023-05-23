@@ -17,7 +17,7 @@
     "prettier": "prettier --check src --config .config/.prettierrc.json",
     "eslint": "eslint src --cache --config .config/.eslintrc.json",
     "check-types": "tsc --noEmit --project .config/tsconfig.json",
-    "test-only": "vitest --run --coverage .config/vite.config.ts",
+    "test-only": "vitest --run --coverage --config .config/vite.config.ts",
     "test": "npm run test-only && npm run eslint && npm run prettier && npm run check-types",
     "eslint-fix": "npm run eslint -- --fix",
     "prettier-write": "prettier --write src --config .config/.prettierrc.json",
