@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/santimirandarp/generator-mistery/compare/v0.1.3...v0.2.0) (2023-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* several directories and configration, use EJS now.
+
+### Bug Fixes
+
+* missing --config for vitest ([86abeea](https://github.com/santimirandarp/generator-mistery/commit/86abeea8f9e62ba1fd6bae1550b3e468d246b2cc))
+* several directories and configration, use EJS now. ([6ce01c9](https://github.com/santimirandarp/generator-mistery/commit/6ce01c9ec472cc9ffab9645fc91f3dc869be74a0))
+
 ## [0.1.3](https://github.com/santimirandarp/generator-mistery/compare/v0.1.2...v0.1.3) (2023-05-22)
 
 
