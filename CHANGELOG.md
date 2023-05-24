@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/santimirandarp/generator-mistery/compare/v0.2.0...v0.3.0) (2023-05-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* do not use determineAppname
+
+### Code Refactoring
+
+* do not use determineAppname ([20e1c02](https://github.com/santimirandarp/generator-mistery/commit/20e1c029e2c6e2536e3022cbd642538d773a7630))
+
 ## [0.2.0](https://github.com/santimirandarp/generator-mistery/compare/v0.1.3...v0.2.0) (2023-05-23)
 
 

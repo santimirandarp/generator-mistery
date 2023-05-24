@@ -1,6 +1,6 @@
 {
   "name": "generator-mistery",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple scaffolding for Typescript project.",
   "scripts": {
     "eslint": "eslint generators --cache -c .config/.eslintrc.json",
