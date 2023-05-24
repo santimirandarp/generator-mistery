@@ -1,4 +1,4 @@
-import { join, dirname } from 'node:path';
+import { join, dirname,basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import camelCase from 'camelcase';
@@ -27,7 +27,7 @@ export default class extends Generator {
         type: 'input',
         name: 'name',
         message: 'Your project name',
-        default: this.determineAppname(),
+        default: basename(this.destinationRoot()),
       },
       {
         type: 'input',
