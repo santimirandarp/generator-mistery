@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/santimirandarp/generator-mistery/compare/v0.3.0...v0.3.1) (2023-05-24)
+
+
+### Bug Fixes
+
+* path in tsconfig.esm.json ([a305298](https://github.com/santimirandarp/generator-mistery/commit/a305298766363d37cc2659d7f9edffda3caea51c))
+
 ## [0.3.0](https://github.com/santimirandarp/generator-mistery/compare/v0.2.0...v0.3.0) (2023-05-24)
 
 
