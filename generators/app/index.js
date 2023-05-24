@@ -1,4 +1,4 @@
-import { join, dirname,basename } from 'node:path';
+import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import camelCase from 'camelcase';
