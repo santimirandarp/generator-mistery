@@ -10,7 +10,7 @@ jobs:
     # Documentation: https://github.com/zakodium/workflows#release
     uses: zakodium/workflows/.github/workflows/release.yml@release-v1
     with:
-      npm: true
+      npm: false
     secrets:
       github-token: ${{ secrets.GH_GENERATOR }}
       npm-token: ${{ secrets.GENERATOR }}
