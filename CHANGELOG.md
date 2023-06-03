@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/santimirandarp/generator-mistery/compare/v0.3.1...v0.3.2) (2023-06-03)
+
+
+### Bug Fixes
+
+* do not publish unless changed to `npm: true` ([d90d602](https://github.com/santimirandarp/generator-mistery/commit/d90d60210b388f93ef2629e223bddbad6506af57))
+
 ## [0.3.1](https://github.com/santimirandarp/generator-mistery/compare/v0.3.0...v0.3.1) (2023-05-24)
 
 
